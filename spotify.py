@@ -23,4 +23,4 @@ class SpotifyClass:
         return pd.DataFrame(self.chart[0:n])
 
 Rick = SpotifyClass()
-print(Rick.get_top_nth(10))
+print(Rick.get_top_nth(20))
