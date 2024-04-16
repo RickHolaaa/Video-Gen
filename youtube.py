@@ -2,7 +2,8 @@ from youtubesearchpython import VideosSearch
 
 def search(title,choices = 10):
 
-    filtre = ['Remix', 'Live', 'Dubstep', '(Slowed Down)', 'official music video', 'official video']
+    filtre = ['Remix', 'Live', 'Dubstep', '(Slowed Down)',
+              'official music video', 'official video','Lyric Video']
 
     videosSearch = VideosSearch(title, limit = choices, region = 'FR')
 
